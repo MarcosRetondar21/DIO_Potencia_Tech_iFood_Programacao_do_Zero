@@ -1,36 +1,36 @@
-# Aplicativo Bancário Simples
 
-Este é um aplicativo bancário simples que permite realizar operações básicas como depósito, saque e verificar o extrato da conta. O código foi escrito em Python e pode ser executado em qualquer ambiente compatível com Python.
+# DIO Potência Tech iFood - Programação do Zero
 
-## Funcionalidades
+Bem-vindo ao repositório "DIO_Potencia_Tech_iFood_Programacao_do_Zero"! Este é o lugar onde você encontrará todos os recursos, projetos e exercícios relacionados ao meu aprendizado de programação com o curso Potência Tech iFood da Digital Innovation One (DIO).
 
-### 1. Depositar
+## Sobre
 
-Ao selecionar a opção 'Depositar', você poderá informar o valor que deseja depositar na conta. O aplicativo validará se o valor é válido (maior que zero) antes de efetuar o depósito. O valor depositado será somado ao saldo da conta e registrado no extrato.
+Neste repositório, estou documentando meu progresso na jornada de aprender programação a partir do zero. O curso da Potência Tech iFood é uma excelente oportunidade para adquirir conhecimento e habilidades em programação, e aqui estarei mantendo um registro de tudo o que aprendo.
 
-### 2. Sacar
+## Tópicos Abordados
 
-Se você escolher a opção 'Sacar', poderá inserir o valor que deseja sacar. O aplicativo verificará algumas condições antes de autorizar o saque:
+- Introdução à programação
+- Linguagens de programação (ex: JavaScript, Python)
+- Desenvolvimento web
+- Lógica de programação
+- Estruturas de dados
+- Algoritmos
+- Projetos práticos
 
-- Se o valor do saque for maior que o saldo disponível na conta, o saque será negado com a mensagem "Opção falhou! Você não tem saldo em conta".
-- Se o valor do saque for maior que o limite diário permitido (R$500), o saque será negado com a mensagem "Opção falhou! Você excedeu o limite por saque".
-- Se o número máximo de saques diários (3) for atingido, o saque será negado com a mensagem "Opção falhou! Número máximo de saques excedido".
-- Se o valor informado for válido (maior que zero) e todas as condições forem atendidas, o valor será subtraído do saldo da conta, o saque será registrado no extrato e o contador de saques será incrementado.
+## Estrutura do Repositório
 
-### 3. Extrato
+Este repositório será organizado da seguinte maneira:
 
-Ao selecionar a opção 'Extrato', o aplicativo exibirá um resumo das operações realizadas na conta. Caso não tenha sido feita nenhuma operação, a mensagem "Não foram realizadas operações" será exibida. Caso contrário, o extrato mostrará os detalhes dos depósitos e saques realizados, bem como o saldo atual da conta.
+- **Projetos:** Nesta pasta, você encontrará todos os projetos práticos e exercícios desenvolvidos durante o curso.
 
-### 0. Sair
+- **Recursos:** Documentos, guias e materiais de estudo adicionais que eu criar ou encontrar ao longo do curso.
 
-Ao selecionar a opção 'Sair', o aplicativo será encerrado.
+## Como Contribuir
 
-## Limitações
+Este repositório é pessoal e é principalmente destinado ao meu aprendizado. No entanto, você é bem-vindo(a) a explorar os projetos e recursos compartilhados aqui. Se você encontrar algo útil ou tiver sugestões, sinta-se à vontade para enviar uma solicitação de *pull request*.
 
-Este aplicativo bancário simples foi desenvolvido apenas para fins educacionais e não possui recursos de segurança ou persistência de dados. Ele não é adequado para uso em produção ou em ambientes reais de serviços bancários. Além disso, o código não contempla tratamentos avançados de erros ou validações mais complexas.
+## Contato
 
-## Como Executar
+Se você quiser entrar em contato comigo para discutir o conteúdo ou qualquer outra coisa relacionada a este repositório, você pode me encontrar no seguinte endereço de e-mail: [marcosretondardigital@gmail.com](mailto:marcosretondardigital@gmail.com). Além disso, você pode me conectar no [LinkedIn](https://www.linkedin.com/in/marcos-retondar/) para networking e discussões profissionais.
 
-Para executar o aplicativo, copie e cole o código em um ambiente Python compatível (por exemplo, o ambiente Jupyter Notebook, Visual Studio Code com o Python extension, Google Colab ou outro ambiente Python instalado em sua máquina local). Em seguida, execute o código e siga as instruções do menu para interagir com o aplicativo. Lembre-se de que você pode personalizar e estender o código conforme necessário para atender a requisitos adicionais.
-
-**Observação**: Certifique-se de que todas as dependências necessárias estejam instaladas em seu ambiente Python antes de executar o código.
+Agradeço por acompanhar minha jornada de aprendizado em programação! Vamos aprender juntos.
