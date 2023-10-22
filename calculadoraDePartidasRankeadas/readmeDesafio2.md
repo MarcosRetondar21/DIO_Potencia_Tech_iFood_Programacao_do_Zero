@@ -1,49 +1,43 @@
-/*Instruções para entrega
- # 2️⃣ Calculadora de partidas Rankeadas
-**O Que deve ser utilizado**
+/# Desafio Calculadora de Partidas Rankeadas
+
+## Instruções para Entrega
+
+### Desafio 2️⃣
+
+**Tecnologias Utilizadas:**
+
+- ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1.60.0-blue)
+- ![Markdown](https://img.shields.io/badge/Markdown-1.0-green)
+
+**O Que Deve Ser Utilizado:**
 
 - Variáveis
 - Operadores
-- Laços de repetição
-- Estruturas de decisões
+- Laços de Repetição
+- Estruturas de Decisões
 - Funções
 
-## Objetivo:
+## Objetivo
 
-Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
-depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
+Neste desafio, você deve criar uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador. Em seguida, retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do cálculo (vitórias - derrotas).
 
-Se vitórias for menor do que 10 = Ferro
-Se vitórias for entre 11 e 20 = Bronze
-Se vitórias for entre 21 e 50 = Prata
-Se vitórias for entre 51 e 80 = Ouro
-Se vitórias for entre 81 e 90 = Diamante
-Se vitórias for entre 91 e 100= Lendário
-Se vitórias for maior ou igual a 101 = Imortal
+- Se vitórias forem menores do que 10 = Ferro
+- Se vitórias estiverem entre 11 e 20 = Bronze
+- Se vitórias estiverem entre 21 e 50 = Prata
+- Se vitórias estiverem entre 51 e 80 = Ouro
+- Se vitórias estiverem entre 81 e 90 = Diamante
+- Se vitórias estiverem entre 91 e 100 = Lendário
+- Se vitórias forem maiores ou iguais a 101 = Imortal
 
 ## Saída
 
-Ao final deve se exibir uma mensagem:
-"O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**" */
- 
-let nomeDoHeroi = ("João das Candongas")
-let vitorias = 50
-let derrotas = 22
-let saldoDeVitorias = saldo()
+Ao final, deve-se exibir uma mensagem:
 
-let nivelDoHeroi
+"O Herói tem um saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 
-function saldo(){
-    return vitorias - derrotas
-}
+## Contato
 
+Se você quiser entrar em contato comigo para discutir o conteúdo ou qualquer outra coisa relacionada a este repositório, você pode me encontrar no seguinte endereço de e-mail: [marcosretondardigital@gmail.com](mailto:marcosretondardigital@gmail.com). Além disso, você pode me conectar no [LinkedIn](https://www.linkedin.com/in/marcos-retondar/) para networking e discussões profissionais.
 
-if (saldoDeVitorias < 10){saldoDeVitorias =  "Ferro"}
-else if (saldoDeVitorias >=11 && saldoDeVitorias <= 20){nivelDoHeroi = "Bronze"}
-else if (saldoDeVitorias >=21 && saldoDeVitorias<= 50){nivelDoHeroi = "Prata"}
-else if (saldoDeVitorias >= 51 && saldoDEVitorias<= 80){nivelDoHeroi = "ouro"}
-else if (saldoDeVitorias >= 81 && saldoDeVitorias<= 90){nivelDoHeroi = "Diamante"}
-else if (saldoDeVitorias >= 91 && saldoDeVitorias<= 100){nivelDoHeroi = "Lendário"}
-else  {nivelDoHeroi = "Imortal"}
-
-console.log ("O Herói tem de saldo de " + saldoDeVitorias +", está no nível "+ nivelDoHeroi)
+Agradeço por acompanhar minha jornada de aprendizado em programação! Vamos aprender juntos.
